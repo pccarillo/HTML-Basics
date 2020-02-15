@@ -42,7 +42,6 @@ E-mail:<br>
 <!-- Create submit button. Once clicked, a confirmation message will be displayed -->
 <button type="button" onclick="alert('Your information has been saved')">Submit</button>
 
-
 <!-- Create reset button. Once clicked, information will be deleted and a confirmation message will be displayed -->
 <input class="button" type="reset" value="Reset" onclick="alert('Your information has been deleted')" />
 
