@@ -1,54 +1,6 @@
-<!-- Apply style to body -->
-<style>
 body {
   background-color: black;
   text-align: center; 
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-</style>
-
-<!-- Start body -->
-<body>
-<!--
-This is the title. Properties used in the title:
-Text alignment: center
-Text style: bold (strong), italics (em)
-Header type: h3
--->
-<h3 style="text-align: center;" align="center"><em>Customer Information</em></h3>
-
-<!-- Start form -->
-<form>
-
-<!-- Create text “First name:” text then skip a line -->
-First name:<br>
-
-<!-- Create input box then skip a line -->
-<input name="firstname" type="text" /><br>
-
-<!-- Create text “Last name:” text then skip a line -->
-Last name:<br>
-
-<!-- Create input box then skip a line -->
-<input name="lastname" type="text" /><br>
-
-<!-- Create text “E-mail:” text then skip a line -->
-E-mail:<br> 
-
-<!-- Create input box then skip two lines -->
-<input name="email" type="text" /><br><br>
-
-<!-- Create submit button. Once clicked, a confirmation message will be displayed -->
-<button type="button" onclick="alert('Your information has been saved')">Submit</button>
-
-<!-- Create reset button. Once clicked, information will be deleted and a confirmation message will be displayed -->
-<input class="button" type="reset" value="Reset" onclick="alert('Your information has been deleted')" />
-
-<!-- End form -->
-</form>
-
-<!--
-End body
--->
-</body>
